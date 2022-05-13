@@ -19,11 +19,11 @@ for (let index = 0; index < vendas.length; index++) {
         totalComissao += vendas[index] * 0.05;
 
         console.log("O valor dessa comissão foi de R$" + comissao.toFixed(2))
+    }
 
-        }
-
-        if (totalComissao >=150) {
-            console.log ("O valor total de comissões de hoje foi de R$" + totalComissao.toFixed(2) + ", parabéns, você conseguiu bater a meta")
-        } else {
-            console.log ("O valor total de comissões de hoje foi de R$" + totalComissao.toFixed(2) + " e infelizmente você não conseguiu atingir a meta diária") 
-            }
+if (totalComissao >=150) {
+console.log ("O valor total de comissões de hoje foi de R$" + totalComissao.toFixed(2) + ", parabéns, você conseguiu bater a meta")
+}
+else {
+console.log ("O valor total de comissões de hoje foi de R$" + totalComissao.toFixed(2) + " e infelizmente você não conseguiu atingir a meta diária") 
+}
